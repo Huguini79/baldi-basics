@@ -65,10 +65,10 @@ function animate() {
             camera.translateZ(velocidad);
         }
         if (tecla["ArrowRight"]) {
-            camera.rotation.y -= 0.01;
+            camera.rotation.y -= 0.02;
         }
         if (tecla["ArrowLeft"]) {
-            camera.rotation.y += 0.01;
+            camera.rotation.y += 0.02;
         }
     }
 
