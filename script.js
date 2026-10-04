@@ -15,7 +15,7 @@ let gltfLoader = new THREE.GLTFLoader();
 
 let musica = new Audio("SchoolHouseMusic.mp3");
 
-let cieloTextura = textureLoader.load("https://imgs.search.brave.com/_HmzYxkuBFNTIsj5UQGDMycJ5a-RnugFqWlJQb47paQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2Jh/bGRpcy1iYXNpY3Mt/aW4tZWR1Y2F0aW9u/LWFuZC1sZWFybmlu/Zy9pbWFnZXMvNi82/ZS9Ta3lfMC5wbmcv/cmV2aXNpb24vbGF0/ZXN0P2NiPTIwMTgw/NjIyMTYzNjA0");
+let cieloTextura = textureLoader.load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yKpSoydyzvKvufjGOnen8kDT2MLvn0_nc8tpocqFGQ&s=10");
 let cieloGeometry = new THREE.SphereGeometry(1000, 25, 25);
 let cieloMaterial = new THREE.MeshBasicMaterial( {map: cieloTextura, side: THREE.BackSide} );
 let cielo = new THREE.Mesh(cieloGeometry, cieloMaterial);
